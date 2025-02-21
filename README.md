@@ -4,12 +4,10 @@ A implementation of a UNIX shell that I worked on while learning Go
 
 ## Features
 
-- **Command Line Features**
   - Built-in Commands (cd, pwd, echo, type, exit)
   - External Command Execution from PATH
   - Tab completion for commands
-  - Command history navigation
-  - Input/Output redirection (`>`, `>>`, `2>`, `2>>`)
+  - Output redirection (`>`, `>>`, `1>`, `1>>`, `2>`, `2>>`)
   - Support for quoted strings (both single and double quotes)
   - Escape character support (`\`)
 
@@ -23,7 +21,7 @@ A implementation of a UNIX shell that I worked on while learning Go
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/goshell.git
+git clone git@github.com:DenizGezgin/GoShell.git
 cd goshell
 ```
 
